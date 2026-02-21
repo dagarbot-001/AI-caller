@@ -1,0 +1,7 @@
+node_modules/
+.env
+ai-voice-sales-agent.zip
+output/*
+!output/.gitkeep
+uploads/*
+!uploads/.gitkeep
