@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #111;
+  background: #f4f7fb;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.status {
+  font-weight: 600;
+}
+
+.error {
+  color: #b70000;
+  font-weight: 600;
+}
+
+.transcript {
+  margin-top: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.transcript ul {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.6rem;
+}
